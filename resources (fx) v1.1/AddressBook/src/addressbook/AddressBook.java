@@ -24,6 +24,7 @@ public class AddressBook extends Application {
         stage.setTitle(bundle.getString("application.name"));
         stage.setScene(scene);
         stage.getIcons().add(new Image("addressbook/resources/frameIcon32.gif"));
+        stage.setMinWidth(450);
         stage.show();
     }
 
